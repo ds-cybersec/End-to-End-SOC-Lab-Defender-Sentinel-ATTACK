@@ -25,8 +25,6 @@ By executing threat simulations using **Atomic Red Team** mapped to the **MITRE 
    ├── Azure Arc & Azure Monitor Agent (AMA Pipeline)
    └── Microsoft Sentinel Workspace (SecurityEvent, Event, SigninLogs)
 
----
-
 ## 🔍 The 3-Tier Investigation Methodology
 
 Every executed scenario follows a strict verification methodology to evaluate visibility across local endpoint logs and SIEM data lakes:
@@ -65,6 +63,7 @@ When an alert or suspicious process is detected in Sentinel, apply this 5-stage 
 ---
 
 ## 🛠️ Key Technologies & Lab Environment
+
 * **SIEM / Analytics:** Microsoft Sentinel Workspace
 * **Endpoint Telemetry:** Sysmon64 (Modular Config), Windows Security Event Logs
 * **Log Transport:** Azure Arc, Azure Monitor Agent (AMA), Data Collection Rules (DCR)
