@@ -24,7 +24,7 @@ By executing threat simulations using **Atomic Red Team** mapped to the **MITRE 
 3. CLOUD & SIEM INGESTION LAYER
    ├── Azure Arc & Azure Monitor Agent (AMA Pipeline)
    └── Microsoft Sentinel Workspace (SecurityEvent, Event, SigninLogs)
-
+```
 ## 🔍 The 3-Tier Investigation Methodology
 
 Every executed scenario follows a strict verification methodology to evaluate visibility across local endpoint logs and SIEM data lakes:
