@@ -46,3 +46,17 @@ By executing threat simulations using **Atomic Red Team** mapped to the **MITRE 
 |           `---> SecurityIncident (Ingested Alerts & Analytics)                    |
 +-----------------------------------------------------------------------------------+
 ```
+🔄 The 3-Tier Investigation Methodology
+Every executed scenario follows a strict three-tier verification methodology to evaluate visibility across local endpoint logs, EDR portals, and SIEM data lakes:
+
++-------------------------+      +-------------------------+      +-------------------------+
+|   STAGE A: Sysmon EVTX  | ───► |  STAGE B: Sentinel KQL  | ───► |  STAGE C: Defender XDR  |
+|  (Host Ground Truth)    | ...  |  (SIEM Data Aggregation)| ───► |  (EDR Alert Context)    |
++-------------------------+      +-------------------------+      +-------------------------+
+
+Stage A — Host Ground Truth (Sysmon / PowerShell): Validate execution directly at the kernel/process level on the endpoint using local event logs before any network transport.
+
+Stage B — SIEM Data Ingestion (Microsoft Sentinel): Query central log tables via KQL to verify Azure Monitor Agent (AMA) ingestion, schema mapping, and parser performance.
+
+Stage C — EDR & Alert Context (Defender XDR): Evaluate telemetry enrichment, behavioral correlation, timeline aggregation, and incident generation in the Defender portal.
+
