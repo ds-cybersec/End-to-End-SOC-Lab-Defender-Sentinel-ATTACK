@@ -1,7 +1,0 @@
-// Detection Query: Failed Interactive Logins / Potential Brute Force
-SigninLogs
-| where TimeGenerated > ago(24h)
-| where ResultType != 0
-| summarize FailedCount = count() by UserPrincipalName, IPAddress, AppDisplayName
-| where FailedCount > 5
-| sort by FailedCount desc
