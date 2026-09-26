@@ -37,16 +37,18 @@ Every executed scenario follows a strict verification methodology to evaluate vi
 
 ## 📂 Scenario Case Studies Index
 
-Click on any scenario below to view its full technical breakdown, commands, KQL queries, and forensic findings.
-
 | Tactic | Technique ID | Technique Name | Full Investigation Writeup |
 | :--- | :--- | :--- | :--- |
-| Execution | T1059.003 | Windows Command Shell | [📁 View Case Study](./scenarios/T1059.003.md) |
-| Persistence | T1053.005 | Scheduled Task | [📁 View Case Study](./scenarios/T1053.005.md) |
-| Privilege Escalation | T1548.002 | UAC Bypass (fodhelper) | [📁 View Case Study](./scenarios/T1548.002.md) |
-| Defense Evasion | T1070.001 | Clear Event Logs | [📁 View Case Study](./scenarios/T1070.001.md) |
-| Discovery | T1082 | System Info Discovery | [📁 View Case Study](./scenarios/T1082.md) |
-| Lateral Movement | T1021.001 | Remote Desktop (RDP) | [📁 View Case Study](./scenarios/T1021.001.md) |
+| Execution | T1059.003 | Command and Scripting Interpreter: Windows Command Shell | [📁 View Case Study](./scenarios/01-T1059.003.md) |
+| | T1059.001 | Command and Scripting Interpreter: PowerShell | [📁 View Case Study](./scenarios/02-T1059.001.md) |
+| Persistence | T1053.005 | Scheduled Task/Job: Scheduled Task | [📁 View Case Study](./scenarios/03-T1053.005.md) |
+| | T1547 | Boot or Logon Autostart Execution | [📁 View Case Study](./scenarios/04-T1547.md) |
+| Defense Evasion | T1070.001 | Indicator Removal: Clear Windows Event Logs | [📁 View Case Study](./scenarios/05-T1070.001.md) |
+| | T1036.005 | Masquerading | [📁 View Case Study](./scenarios/06-T1036.005.md) |
+| Discovery | T1082 | System Information Discovery | [📁 View Case Study](./scenarios/07-T1082.md) |
+| | T1057 | Process Discovery | [📁 View Case Study](./scenarios/08-T1057.md) |
+| Lateral Movement | T1021.001 | Remote Services: Remote Desktop Protocol | [📁 View Case Study](./scenarios/09-T1021.001.md) |
+| Credential Access | T1003.001 | OS credential dumping: LSASS Memory | [📁 View Case Study](./scenarios/10-T1003.001.md) |
 
 ---
 
