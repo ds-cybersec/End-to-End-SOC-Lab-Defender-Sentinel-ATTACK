@@ -37,18 +37,18 @@ Every executed scenario follows a strict verification methodology to evaluate vi
 
 ## 📂 Scenario Case Studies Index
 
-| Tactic | Technique ID | Technique Name | Full Investigation Writeup |
+| Tactic | Technique ID | Technique Name | Full investigation writeup |
 | :--- | :--- | :--- | :--- |
-| Execution | T1059.003 | Command and Scripting Interpreter: Windows Command Shell | [📁 View Case Study](./scenarios/01-T1059.003.md) |
+| **Execution**<br>`TA0002` | T1059.003 | Command and Scripting Interpreter: Windows Command Shell | [📁 View Case Study](./scenarios/01-T1059.003.md) |
 | | T1059.001 | Command and Scripting Interpreter: PowerShell | [📁 View Case Study](./scenarios/02-T1059.001.md) |
-| Persistence | T1053.005 | Scheduled Task/Job: Scheduled Task | [📁 View Case Study](./scenarios/03-T1053.005.md) |
+| **Persistence**<br>`TA0003` | T1053.005 | Scheduled Task/Job: Scheduled Task | [📁 View Case Study](./scenarios/03-T1053.005.md) |
 | | T1547 | Boot or Logon Autostart Execution | [📁 View Case Study](./scenarios/04-T1547.md) |
-| Defense Evasion | T1070.001 | Indicator Removal: Clear Windows Event Logs | [📁 View Case Study](./scenarios/05-T1070.001.md) |
+| **Defense Evasion**<br>`TA0005` | T1070.001 | Indicator Removal: Clear Windows Event Logs | [📁 View Case Study](./scenarios/05-T1070.001.md) |
 | | T1036.005 | Masquerading | [📁 View Case Study](./scenarios/06-T1036.005.md) |
-| Discovery | T1082 | System Information Discovery | [📁 View Case Study](./scenarios/07-T1082.md) |
+| **Discovery**<br>`TA0007` | T1082 | System Information Discovery | [📁 View Case Study](./scenarios/07-T1082.md) |
 | | T1057 | Process Discovery | [📁 View Case Study](./scenarios/08-T1057.md) |
-| Lateral Movement | T1021.001 | Remote Services: Remote Desktop Protocol | [📁 View Case Study](./scenarios/09-T1021.001.md) |
-| Credential Access | T1003.001 | OS credential dumping: LSASS Memory | [📁 View Case Study](./scenarios/10-T1003.001.md) |
+| **Lateral Movement**<br>`TA0008` | T1021.001 | Remote Services: Remote Desktop Protocol | [📁 View Case Study](./scenarios/09-T1021.001.md) |
+| **Credential Access**<br>`TA0006` | T1003.001 | OS credential dumping: LSASS Memory | [📁 View Case Study](./scenarios/10-T1003.001.md) |
 
 ---
 
