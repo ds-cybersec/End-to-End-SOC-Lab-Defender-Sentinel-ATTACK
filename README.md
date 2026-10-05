@@ -35,10 +35,6 @@ Every executed scenario follows a strict verification methodology to evaluate vi
 
 ---
 
-<img width="786" height="947" alt="dashboard" src="https://github.com/user-attachments/assets/75dcafa7-2f7a-45fc-97b1-c18c5ed7e431" />
-
----
-
 ## 📂 Scenario Case Studies Index
 
 | Tactic | Technique ID | Technique Name | Full investigation writeup |
@@ -53,6 +49,10 @@ Every executed scenario follows a strict verification methodology to evaluate vi
 | | T1057 | Process Discovery | [📁 View Case Study](./scenarios/08-T1057.md) |
 | **Lateral Movement**<br>`TA0008` | T1021.001 | Remote Services: Remote Desktop Protocol | [📁 View Case Study](./scenarios/09-T1021.001.md) |
 | **Credential Access**<br>`TA0006` | T1003.001 | OS credential dumping: LSASS Memory | [📁 View Case Study](./scenarios/10-T1003.001.md) |
+
+---
+
+<img width="786" height="947" alt="dashboard" src="https://github.com/user-attachments/assets/75dcafa7-2f7a-45fc-97b1-c18c5ed7e431" />
 
 ---
 
