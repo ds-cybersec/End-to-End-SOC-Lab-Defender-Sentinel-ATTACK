@@ -35,6 +35,10 @@ Every executed scenario follows a strict verification methodology to evaluate vi
 
 ---
 
+<img width="786" height="947" alt="dashboard" src="https://github.com/user-attachments/assets/75dcafa7-2f7a-45fc-97b1-c18c5ed7e431" />
+
+---
+
 ## 📂 Scenario Case Studies Index
 
 | Tactic | Technique ID | Technique Name | Full investigation writeup |
